@@ -1,0 +1,7 @@
+#sketchpad {
+    margin: auto;
+    width: 100%;
+    height: 477px;
+    background-repeat: repeat;
+    border: none!important; // 1px solid #aaa;
+}
