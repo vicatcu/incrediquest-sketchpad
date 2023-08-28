@@ -8,7 +8,7 @@ function initSketchpad() {
         containerEl: document.getElementById("sketchpad"),
         createPageConfig: {
             no: 1,
-	    backgroundImage: "https://ci.incrediquest.com/sketchpad-client/images/CodeBreaker.png",
+	        backgroundImage: "https://ci.incrediquest.com/sketchpad-client/images/CodeBreaker.png",
             //foregroundImage: "https://ci.incrediquest.com/sketchpad-client/images/CodeBreaker-fg.png",
             //backgroundImage: "https://ci.incrediquest.com/sketchpad-client/images/background.jpg",
             //foregroundImage: "https://ci.incrediquest.com/sketchpad-client/images/foreground.png"
@@ -31,7 +31,7 @@ function initSketchpad() {
     document.getElementById("size").addEventListener("change", function (e) {
         sketchpad.getCurrentTool().setSize(e.target.value);
     });
-    document.getElementById("size").value = tool.setSize(15).getSize();
+    document.getElementById("size").value = tool.setSize(2).getSize();
 
     //rubber
     document.getElementById('eraser').addEventListener("click", function () {
